@@ -53,10 +53,10 @@ echo "$content" > .env
 
 # Execute initDB script
 npm install
-node initDB.js
+node initDB.js &
 
 # Start Backend
-npm (run dev&)
+(npm run dev&)
 
 # Start frontend
 cd client
