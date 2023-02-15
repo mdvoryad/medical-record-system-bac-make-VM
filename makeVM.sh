@@ -49,7 +49,7 @@ pwd
 #SECRET=fb2e77d.47a045514510523cfwab4a1f626d174d2dqwwq2412w5"
 
 # Create the .env file
-echo "$content" > .env
+#echo "$content" > .env
 
 # Execute initDB script
 npm install
